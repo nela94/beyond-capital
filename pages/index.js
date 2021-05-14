@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import { useEffect } from 'react'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
 
-  // 
+  //
   // useEffect(() =>{
   //   console.log("hittinh")
   //     document.getElementsByClassName("Home_bg_slider__1jKsY")[0].style.color='var(--slideTextColor)'
@@ -21,11 +20,6 @@ export default function Home() {
         <meta name="building info" content="promo Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <div className={styles.bg_slider} >
-            <p className={styles.mainTitle}>Beyond Capital</p>
-        </div>
-      </div>
     </div>
   )
 }
