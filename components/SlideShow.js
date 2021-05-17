@@ -10,7 +10,7 @@ const SlideShow = () => {
       <img src="https://picsum.photos/800/304/?random" alt="5" />   ];
 
   return (
-    <Carousel slides={slides} autoplay={true} interval={1000}/>
+    <Carousel slides={slides} autoplay={false} interval={1000}/>
   );
 };
 
